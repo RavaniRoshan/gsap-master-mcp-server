@@ -4,6 +4,16 @@
 
 > 🎉 **ALL GSAP PLUGINS NOW 100% FREE** thanks to Webflow! Including SplitText, MorphSVG, DrawSVG, and more!
 
+## ⚠️ Current Status: Alpha Version
+
+This project is currently in its early alpha stage. The vision is to create a comprehensive suite of AI-powered GSAP tools, but right now, only a single, basic tool is implemented.
+
+### **Available Tools**
+
+*   **`animate`**: A simple tool to create a GSAP animation with a given method, target, and configuration. See "Example Usage" below for more details.
+
+We welcome contributors to help us build out the full feature set!
+
 ## ⚡ **Quick Start**
 
 ```bash
@@ -12,7 +22,7 @@ claude mcp add-json gsap-master '{"command":"npx","args":["bruzethegreat-gsap-ma
 
 That's it! You now have the ultimate GSAP assistant in Claude.
 
-## 🚀 **What You Get - 6 Powerful Tools**
+## 🚀 **Roadmap - 6 Powerful Tools**
 
 ### 🧠 **1. AI Animation Creator** (`understand_and_create_animation`)
 Just describe what you want in natural language:
@@ -66,20 +76,19 @@ Battle-tested animation systems:
 
 ## 💡 **Example Usage**
 
-### Create Scroll Animation
+To fade in an element with the class `.my-element`, you can use the `animate` tool like this:
+
 ```
-Use the understand_and_create_animation tool to create a smooth parallax hero section with staggered text reveals
+Use the animate tool from gsap-master to animate the target ".my-element" with the "to" method and a config of { opacity: 1, duration: 1 }
 ```
 
-### Debug Performance Issues
-```
-Use the debug_animation_issue tool with: "My animations are laggy on mobile Safari"
+This is equivalent to the following GSAP code:
+
+```javascript
+gsap.to(".my-element", { opacity: 1, duration: 1 });
 ```
 
-### Generate Complete Setup
-```
-Use the generate_complete_setup tool for React with ScrollTrigger and SplitText plugins
-```
+The examples below this section describe the functionality of tools that are part of the future roadmap and are not yet implemented.
 
 ## 🎯 **Perfect For**
 
