@@ -1,0 +1,21 @@
+{
+  "name": "gsap-master",
+  "displayName": "GSAP Animation Expert",
+  "description": "Create professional GSAP animations with AI precision",
+  "version": "2.2.0",
+  "author": "bruzethegreat",
+  "tags": [
+    "animation",
+    "gsap",
+    "web-development",
+    "frontend",
+    "ui",
+    "motion"
+  ],
+  "capabilities": [
+    "animation-generation",
+    "code-generation",
+    "debugging",
+    "optimization"
+  ]
+}

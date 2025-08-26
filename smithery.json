@@ -1,0 +1,21 @@
+{
+  "name": "gsap-master",
+  "version": "2.2.0",
+  "description": "The ultimate GSAP animation expert - Create professional animations with surgical precision",
+  "type": "model",
+  "main": "dist/index.js",
+  "author": "bruzethegreat",
+  "license": "MIT",
+  "runtime": {
+    "type": "node",
+    "version": ">=18.0.0"
+  },
+  "interface": {
+    "type": "mcp",
+    "version": "0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RavaniRoshan/gsap-master-mcp-server"
+  }
+}

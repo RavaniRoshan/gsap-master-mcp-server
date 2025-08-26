@@ -1,0 +1,10 @@
+node_modules/
+src/
+.git/
+.github/
+test/
+*.test.ts
+*.spec.ts
+tsconfig.json
+.gitignore
+README.md
